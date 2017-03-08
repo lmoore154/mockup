@@ -1,0 +1,198 @@
+// Place all the styles related to the marketing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  color: #9DABB0;
+
+  #logo {
+    float: left;
+    padding-left: 20px;
+    padding-top: 6px;
+  }
+
+  a {
+    color: #9DABB0;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-bottom: 5px;
+    padding-top: 6px;
+    margin: 5px;
+  }
+
+    li {
+      display: inline-block;
+    }
+}
+
+header {
+  background-image: image-url("/assets/background.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 500px;
+
+  #header_text {
+    color: white;
+    font-family: sans-serif;
+    font-size: 60px;
+    padding-top: 150px;
+    text-shadow: 1px 1px 2px black;
+  }
+
+}
+
+footer {
+  background-color: black;
+  height: 75px;
+  width: 100%;
+
+  div {
+    color: #9DABB0;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+  }
+
+    a {
+      color: white;
+    }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+
+  #head1 {
+    background-color: #519251;
+  }
+
+  #head2 {
+    background-color: #2C4985;
+  }
+
+  #head3 {
+    background-color: black;
+  }
+
+  article {
+    font-family: sans-serif;
+    margin: 50px 10px 0px 10px;
+    text-align: center;
+    width: 400px;
+
+    .column_header {
+      height: 300px;
+      text-align: center;
+    }
+
+    .plan {
+      color: white;
+      font-size: 20px;
+      letter-spacing: 0.2em;
+      padding-top: 60px;
+    }
+
+    .price {
+      color: white;
+      font-size: 110px;
+      font-weight: lighter;
+    }
+
+    .per_month {
+      color: white;
+      font-size: 28px;
+      opacity: 0.5;
+    }
+
+    .cell div {
+      background-color: #F7F7F7;
+      color: #69757A;
+      font-family: sans-serif;
+      font-size: 20px;
+      height: 40px;
+      outline: solid lightgrey 1px;
+      padding-top: 20px;
+    }
+
+    .button_box {
+      border: solid lightgrey 1px;
+      height: 100px;
+
+    }
+
+    .choose_button {
+      background: white;
+      border: solid lightgrey 2px;
+      border-radius: 28px;
+      font-weight: bold;
+      color: black;
+      font-family: Arial;
+      font-size: 20px;
+      margin-left: 135px;
+      margin-top: 30px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      width: 80px;
+    }
+  }
+}
+
+div.info_header {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  margin-bottom: 10px;
+}
+
+div.info {
+  color: #69757A;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 270px;
+  line-height: 1.5;
+  width: 550px;
+}
+
+div#info1 {
+  display: inline-block;
+  margin-left: 325px;
+  margin-top: 50px;
+}
+
+div#info2 {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+div#info3 {
+  display: inline-block;
+  margin-left: 325px;
+  margin-top: 20px;
+}
+
+div#info4 {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
